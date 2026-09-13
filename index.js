@@ -96,11 +96,11 @@ client.on("interactionCreate", async interaction => {
 
     const buttons = new ActionRowBuilder().addComponents(
       new ButtonBuilder()
-        .setLabel("📦 Download Here (PC)")
+        .setLabel("📫 Download Here (PC)")
         .setStyle(ButtonStyle.Link)
         .setURL(pc),
       new ButtonBuilder()
-        .setLabel("📦 Download Here (.APK)")
+        .setLabel("📬 Download Here (.APK)")
         .setStyle(ButtonStyle.Link)
         .setURL(mobile)
     );
