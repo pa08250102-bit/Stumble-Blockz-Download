@@ -57,7 +57,7 @@ client.on("interactionCreate", async interaction => {
 
   if (interaction.commandName === "ping") {
     return interaction.reply({
-      content: "🏓 Pong! O Stumble blockz está online.",
+      content: "🏓 Pong! O Stumble Night está online.",
       ephemeral: true
     });
   }
@@ -67,7 +67,7 @@ client.on("interactionCreate", async interaction => {
     const mobile = interaction.options.getString("mobile");
 
     const embed = new EmbedBuilder()
-      .setTitle("🎮 — Stumble blockz Official Download")
+      .setTitle("🎮 — Stumble Night Official Download")
       .setDescription(
         "➡️ Official access to the latest Stumble blockz build, providing a stable and secure release with performance optimizations, enhanced gameplay systems, and ongoing updates designed to deliver a consistent and refined experience across supported platforms."
       )
@@ -77,9 +77,9 @@ client.on("interactionCreate", async interaction => {
           value:
             "➡️ **Melon Loader v0.7.1 🍉**\n" +
             "Open-source mod loader responsible for enabling C# modifications in Unity IL2CPP environments.\n\n" +
-            "➡️ **Stumble Guys Build Version v0.58.3 🛠️**\n" +
-            "Base multiplayer game used as the foundation for the Stumble blockz modification.\n\n" +
-            "➡️ **Stumble blockz v1.0 🎮**\n" +
+            "➡️ **Stumble Guys Build Version v0.56 🛠️**\n" +
+            "Base multiplayer game used as the foundation for the Stumble Night modification.\n\n" +
+            "➡️ **Stumble Night v1.0 🎮**\n" +
             "Customized version focused on performance, additional mechanics, and the return of Classic Tournaments."
         },
         {
@@ -87,11 +87,11 @@ client.on("interactionCreate", async interaction => {
           value:
             "➡️ **Game Files Loader (Required) 💻**\n" +
             "Complete game directory with Melon Loader pre-installed.\n\n" +
-            "➡️ **Stumbleblockz.apk (Required) 📱**\n" +
+            "➡️ **StumbleNight.apk (Required) 📱**\n" +
             "Mobile version of Stumble blockz."
         }
       )
-      .setFooter({ text: "Stumble blockz • Official Download" })
+      .setFooter({ text: "Stumble Night • Official Download" })
       .setTimestamp();
 
     const buttons = new ActionRowBuilder().addComponents(
