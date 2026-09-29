@@ -75,13 +75,30 @@ client.on("interactionCreate", async interaction => {
         {
           name: "━━━━━━━━━━━━━━━━━━\n🎮 — Details & Information",
           value:
-            "➡️ **Melon Loader v0.7.1 🍉**\n" +
-            "Open-source mod loader responsible for enabling C# modifications in Unity IL2CPP environments.\n\n" +
-            "➡️ **Stumble Guys Build Version v0.56 🛠️**\n" +
-            "Base multiplayer game used as the foundation for the Stumble Night modification.\n\n" +
-            "➡️ **Stumble Night v1.0 🎮**\n" +
-            "Customized version focused on performance, additional mechanics, and the return of Classic Tournaments."
-        },
+            "# <:StumbleNight:1553904399582101566> Stumble Night  •  v0.56
+## 💻 Windows (PC)
+
+<:Halloween_Currency:1553529307224080496> **Latest Update:** <t:1790461089:f>
+
+> <:FinFlag:1553529691774783619> **Game Build:** `0.56`
+> <:ServerMaintanace:1546734579480797185>  **Client Build:** `v0.1`
+> <:Folder:1553530164347142185> **Download Size:** `439 MB`
+## 📱 Android (Mobile)
+
+<:StumbleNight:1553904399582101566>   **Latest Update:** <t:1790461080:f>
+
+
+> <:FinFlag:1553529691774783619> **Game Build:** `0.56`
+> <:Crown:1546141110374629466> **Client Build:** `v0.1`
+> <:Paste:1525197590948483072> **APK Size:** `200 MB`
+### <:Tournament_1:1553529468826685510>   **Minimum Requirements — PC & Mobile**
+
+-# 🇺🇸 **🖥️ PC Requirements:**
+-# <:Dot:1543281993356148756> Supports Windows 7–11, Dual-Core CPU (Core 2 Duo or better), 2–4 GB RAM, Integrated Graphics Supported, 1 GB Available Storage, Stable Internet Connection, 32/64-Bit OS.
+-# 🇺🇸 **📱 Mobile Requirements:**
+-# <:Dot:1543281993356148756> Android 6.0+, 2 GB RAM, Snapdragon 450 / Helio P22 or Higher, 1 GB Available Storage, 64-Bit Device.
+@everyone @here
+        },Tournaments
         {
           name: "━━━━━━━━━━━━━━━━━━\n🎮 — Downloads",
           value:
