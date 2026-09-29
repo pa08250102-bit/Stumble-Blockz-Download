@@ -21,7 +21,7 @@ const commands = [
 
   new SlashCommandBuilder()
     .setName("download")
-    .setDescription("Envia a página oficial de downloads do Stumble blockz.")
+    .setDescription("Envia a página oficial de downloads do Stumble Night.")
     .addStringOption(option =>
       option
         .setName("pc")
