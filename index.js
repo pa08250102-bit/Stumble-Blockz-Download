@@ -69,7 +69,7 @@ client.on("interactionCreate", async interaction => {
     const embed = new EmbedBuilder()
       .setTitle("🎮 — Stumble Night Official Download")
       .setDescription(
-        "➡️ Official access to the latest Stumble blockz build, providing a stable and secure release with performance optimizations, enhanced gameplay systems, and ongoing updates designed to deliver a consistent and refined experience across supported platforms."
+        "➡️ Official access to the latest Stumble Night build, providing a stable and secure release with performance optimizations, enhanced gameplay systems, and ongoing updates designed to deliver a consistent and refined experience across supported platforms."
       )
       .addFields(
         {
@@ -88,7 +88,7 @@ client.on("interactionCreate", async interaction => {
             "➡️ **Game Files Loader (Required) 💻**\n" +
             "Complete game directory with Melon Loader pre-installed.\n\n" +
             "➡️ **StumbleNight.apk (Required) 📱**\n" +
-            "Mobile version of Stumble blockz."
+            "Mobile version of Stumble Night."
         }
       )
       .setFooter({ text: "Stumble Night • Official Download" })
